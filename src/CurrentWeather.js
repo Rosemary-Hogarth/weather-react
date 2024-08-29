@@ -1,17 +1,12 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function CurrentWeather(props) {
   return (
     <div className="middle-section">
       <div className="row">
         <div className="col-9">
-          <img
-            src=""
-            id="icon"
-            // className="fa-solid fa-circle sun-icon1"
-            width="300"
-            alt="weather icon"
-          />
+        <ReactAnimatedWeather icon="CLEAR_DAY" color="black" size="90" animate={true} />
         </div>
         <span className="degrees-celsius">
           <thin id="temperature">
