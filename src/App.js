@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import Search from "./Search";
 import Date from "./Date";
 import Layout from "./Layout";
@@ -18,7 +19,7 @@ import "./index.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div class="container">
         <Layout />
         <Search />
         <Date time={8} day="Tuesday" date="27th August" />
