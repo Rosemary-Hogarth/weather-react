@@ -1,3 +1,21 @@
+.weather-description {
+  font-size: 28px;
+  font-weight: 300;
+  padding: 0 auto;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.middle-section {
+  margin-top: 15px;
+}
+
 hr {
   position: relative;
   bottom: 50px;
