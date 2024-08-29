@@ -1,0 +1,24 @@
+.box-button {
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 12px;
+  color: #5a6275;
+  background-color: whitesmoke;
+  border: 1px solid #ffd5e2;
+  border-radius: 5px;
+  width: 119px;
+  padding: 0.375rem 0.75rem;
+}
+
+.form-control {
+  text-decoration: none;
+  font-size: 12px;
+  background-color: whitesmoke;
+  border: 1px solid #ffd5e2;
+  text-align: left;
+  border-radius: 5px;
+}

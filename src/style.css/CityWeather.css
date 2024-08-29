@@ -1,0 +1,8 @@
+.CityWeather .weather-description {
+  font-size: 28px;
+  font-weight: 300;
+  padding: 0 auto;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+}

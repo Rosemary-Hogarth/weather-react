@@ -1,0 +1,65 @@
+hr {
+  position: relative;
+  bottom: 50px;
+  margin-bottom: 0;
+}
+
+p {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.celsius,
+.fahrenheit {
+  font-size: 20px;
+  color: #5a6275;
+  text-decoration: none;
+}
+
+.code {
+  color: #5a6275;
+  text-decoration: underline #f0b91a;
+  font-weight: 200;
+}
+
+.name {
+  display: block;
+  max-width: 360px;
+  margin: 0 auto;
+  position: relative;
+  right: 50px;
+  bottom: -20px;
+  color: #5a6275;
+  font-size: 9px;
+  padding: 0 auto;
+  font-weight: 200;
+}
+
+@media (max-width: 1200px) {
+  h4 {
+    font-size: 40px;
+  }
+  ul {
+    margin: 0 0 5px 0;
+  }
+  .search-city {
+    padding: 10px 20px 0 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 20px auto;
+  }
+  .button {
+    width: auto;
+  }
+
+  .humidity,
+  .pressure,
+  .wind {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+}
