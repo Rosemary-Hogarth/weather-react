@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import Search from "./Search";
+import Weather from "./Weather";
 import Layout from "./Layout";
 import Footer from "./Footer";
 import Forecast from "./Forecast";
-import "./style.css/Search.css"
+import "./style.css/Weather.css"
 import "./style.css/styles.css";
 import "./style.css/Forecast.css";
 import "./style.css/Layout.css";
@@ -14,7 +14,7 @@ export default function App() {
     <div className="App">
       <div class="container">
         <Layout />
-        <Search defaultCity="Glasgow"/>
+        <Weather defaultCity="Glasgow"/>
         <br />
         <hr />
         <div className="forecast-container">
