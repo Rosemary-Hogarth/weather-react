@@ -8,7 +8,7 @@ import "./style.css/styles.css";
 import "./style.css/Forecast.css";
 import "./style.css/Layout.css";
 import "./style.css/WeatherInfo.css";
-
+import "./style.css/WeatherTemperature.css";
 import "./index.css";
 
 export default function App() {

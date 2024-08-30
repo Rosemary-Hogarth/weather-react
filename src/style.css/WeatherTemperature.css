@@ -1,0 +1,16 @@
+.WeatherTemperature .unit {
+  font-size: 20px;
+  position: relative;
+  top: -26px;
+  margin-left: 5px;
+}
+
+.WeatherTemperature a {
+  text-decoration: none;
+  color: #596274;
+}
+
+.WeatherTemperature a:hover {
+  color: palevioletred;
+  cursor: pointer;
+}

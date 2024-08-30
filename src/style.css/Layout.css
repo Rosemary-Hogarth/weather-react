@@ -13,4 +13,5 @@ body {
   color: #5a6275;
   max-width: 500px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
 }
