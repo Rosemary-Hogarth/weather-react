@@ -5,6 +5,10 @@
   margin-left: 5px;
 }
 
+.WeatherTemperature {
+  position: relative;
+    left: 28px
+}
 
 
 @media (max-width: 768px) {
@@ -15,6 +19,6 @@
 
   .WeatherTemperature {
     position: relative;
-    left: 30px
+    left: 28px
   }
 }
