@@ -10,7 +10,7 @@ export default function Footer() {
         class="code"
       >
         Open-source code
-      </a>
+        </a>
       by Rosemary Hogarth
     </div>
   );

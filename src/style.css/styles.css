@@ -22,7 +22,6 @@ h1 {
 }
 
 
-
 hr {
   position: relative;
   bottom: 50px;
@@ -42,6 +41,7 @@ hr {
   color: #5a6275;
   text-decoration: underline #f0b91a;
   font-weight: 200;
+  margin-right: 2px;
 }
 
 .name {
