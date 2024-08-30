@@ -4,7 +4,7 @@ import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 
 
-export default function Search(props) {
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready:false});
   const [city, setCity] = useState(props.defaultCity);
 
@@ -24,6 +24,8 @@ export default function Search(props) {
       date: apiDate,
       icon: response.data.weather[0].icon,
     });
+    // when the app gets weather data from the API, it calls this function to update the temperature
+    props.onTemperatureUpdate(response.data.main.temp);
   }
 
   function search() {
