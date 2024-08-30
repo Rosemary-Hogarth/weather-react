@@ -1,0 +1,54 @@
+.weatherInfo .weather-description {
+  font-size: 28px;
+  font-weight: 300;
+  padding: 0 auto;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+}
+
+
+.weatherInfo .degrees {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 60px;
+  margin: 0 auto;
+
+}
+
+.weatherInfo .degrees-celsius {
+  font-size: 70px;
+  font-weight: 300px;
+  list-style: none;
+  text-align: right;
+  padding-top: 30px;
+  position: relative;
+  bottom: 130px;
+  right: 25px;
+}
+
+.weatherInfo ul {
+  font-size: 13px;
+  list-style: none;
+  position: relative;
+  bottom: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.weatherInfo .fa-solid {
+  padding-right: 5px;
+}
+
+.weatherInfo .middle-section {
+  margin-top: 30px;
+}
+
+.unit {
+  font-size: 20px;
+  position: relative;
+  top: -26px;
+  margin-left: 5px;
+}

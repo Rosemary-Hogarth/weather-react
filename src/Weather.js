@@ -20,6 +20,7 @@ export default function Search(props) {
       description: response.data.weather[0].description,
       feels_like: response.data.main.feels_like,
       date: apiDate,
+      icon: response.data.weather[0].icon,
     });
   }
 

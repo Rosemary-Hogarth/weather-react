@@ -1,13 +1,14 @@
 import React from "react";
-import ReactAnimatedWeather from "react-animated-weather";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
 <div className="weatherInfo">
     <h1 id="date">
     {console.log("Date being passed to Date component:", props.data.date)}
-      <FormattedDate date={props.data.date}/>
+      <FormattedDate date={props.data.date} />
     </h1>
 
     <div>
@@ -22,17 +23,19 @@ export default function WeatherInfo(props) {
         <div className="middle-section">
         <div className="row">
           <div className="col-9">
-          <ReactAnimatedWeather icon="CLEAR_DAY" color="black" size="90" animate={true} />
+            <div className="float-left">
+              <WeatherIcon code={props.data.icon}
+              alt={props.data.description}/>
+            </div>
           </div>
-          <span className="degrees-celsius">
-            <thin id="temperature">
+          <span className="degrees-celsius" id="temperature">
+
               <li className="degrees" id="temp">
-                <p>{Math.round(props.data.temperature)}</p>
+              <WeatherTemperature celsius={props.data.temperature} />
               </li>
-            </thin>
+
             <li className="degrees">
               <p className="celsius" id="celsius-link">
-                °C
               </p>
             </li>
           </span>
