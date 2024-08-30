@@ -5,12 +5,16 @@
   margin-left: 5px;
 }
 
-.WeatherTemperature a {
-  text-decoration: none;
-  color: #596274;
-}
 
-.WeatherTemperature a:hover {
-  color: palevioletred;
-  cursor: pointer;
+
+@media (max-width: 768px) {
+  .WeatherTemperature .unit {
+    position: relative;
+    top: -50px;
+  }
+
+  .WeatherTemperature {
+    position: relative;
+    left: 30px
+  }
 }

@@ -34,15 +34,12 @@ export default function WeatherInfo(props) {
               <li className="degrees" id="temp">
               <WeatherTemperature celsius={props.data.temperature} />
               </li>
-            <li className="degrees">
-              <p className="celsius" id="celsius-link">
-              </p>
-            </li>
+
           </span>
         </div>
       </div>
 
-
+      <div className="WeatherDetails">
         <ul>
         <li>
           <i class="fa-solid fa-droplet"></i>
@@ -64,5 +61,6 @@ export default function WeatherInfo(props) {
         </li>
       </ul>
     </div>
+  </div>
   )
 }

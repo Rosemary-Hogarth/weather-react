@@ -29,14 +29,6 @@ hr {
 }
 
 
-
-.celsius,
-.fahrenheit {
-  font-size: 20px;
-  color: #5a6275;
-  text-decoration: none;
-}
-
 .code {
   color: #5a6275;
   text-decoration: underline #f0b91a;
@@ -67,20 +59,25 @@ hr {
   .search-city {
     padding: 10px 20px 0 4px;
   }
+
 }
 
 @media (max-width: 768px) {
   .container {
-    margin: 20px auto;
-  }
-  .button {
-    width: auto;
+    margin: 0px auto;
+    padding-bottom: 30px;
+    padding-right:40px;
+    padding-left: 40px;
   }
 
-  .humidity,
-  .pressure,
-  .wind {
-    font-size: 10px;
-    margin: 0 auto;
+
+  .button {
+    width: 100%;
+  }
+
+
+  .name {
+    position: relative;
+    bottom: -45px;
   }
 }

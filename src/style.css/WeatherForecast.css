@@ -12,5 +12,13 @@
 }
 
 .WeatherForecast canvas {
-  margin-top: 5px;
+  margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+
+  .WeatherForecast {
+    font-size: 11px;
+    padding: 0;
+  }
 }
