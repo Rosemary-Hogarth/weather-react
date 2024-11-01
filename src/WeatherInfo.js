@@ -42,20 +42,20 @@ export default function WeatherInfo(props) {
       <div className="WeatherDetails">
         <ul>
         <li>
-          <i class="fa-solid fa-droplet"></i>
-          <span class="humidity" id="humidity">
+          <i className="fa-solid fa-droplet"></i>
+          <span className="humidity" id="humidity">
             Humidity: {props.data.humidity} %
           </span>
         </li>
         <li>
-          <i class="fa-solid fa-temperature-quarter"></i>
-          <span class="pressure" id="pressure">
+          <i className="fa-solid fa-temperature-quarter"></i>
+          <span className="pressure" id="pressure">
             Feels like: {Math.round(props.data.feels_like)}°C
           </span>
         </li>
         <li>
-          <i class="fa-solid fa-wind"></i>
-          <span class="wind" id="wind">
+          <i className="fa-solid fa-wind"></i>
+          <span className="wind" id="wind">
             {Math.round(props.data.wind)} km/h
           </span>
         </li>
